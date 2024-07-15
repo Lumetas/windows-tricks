@@ -22,7 +22,7 @@ Add-PathVariable C:\Users\username\bin
 ```
 Это добавит в переменную path папку bin в корневом каталоге вашего пользователя
 
-Поиск по предидущим коммандам по префиксу как это реализовано например в zsh + oh-my-zsh:
+Поиск по предыдущим коммандам по префиксу как это реализовано например в zsh + oh-my-zsh:
 ```
 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
