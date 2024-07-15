@@ -44,7 +44,7 @@ Windows PowerShell
 
 Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
 ```
-Запустите powershell с ключём `-nologo`, например я использую виндовс терминал и сессию powershell, там можно указать команду запуска сессии, пример: `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -nologo`
+Запустите powershell с ключём `-nologo`, например я использую windows терминал и сессию powershell, там можно указать команду запуска сессии, пример: `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -nologo`
 
 Посколку ярлыки windows не являются ссылками, вы можете создать символическую ссылку используя функцию
 ```
