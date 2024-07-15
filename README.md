@@ -35,4 +35,13 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 Данная команда добавленная в powershell profile Запустит oh-my-posh с темой из указанного файла
 
- Директорию `~/.config`, зачастую замещает директория `~\AppData\Local`
+Директорию `~/.config`, зачастую замещает директория `~\AppData\Local`
+
+Для отклюмения стандартного вывода powershell, например:
+```
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+```
+Запустите powershell с ключём `-nologo`, например я использую виндовс терминал и сессию powershell, там можно указать команду запуска сессии, пример: `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -nologo`
