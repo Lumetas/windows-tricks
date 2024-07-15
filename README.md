@@ -30,3 +30,9 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 ```
 
 Установите winget, а после oh-my-posh командой `winget install oh-my-posh` Если выведет несколько вариантов вы можете скопировать ID нужного продукта и заменить им название пакета
+
+`oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/bubbles.omp.json | Invoke-Expression`
+
+Данная команда добавленная в powershell profile Запустит oh-my-posh с темой из указанного файла
+
+ Директорию `~/.config`, зачастую замещает директория `~\AppData\Local`
